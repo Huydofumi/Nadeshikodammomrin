@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #141414;
+}
+
+
+.loading {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainchara {
+    display: flex;
+}
+
+.nadeshiko {
+    margin-right: 20px;
+    position: relative;
+    right: 200px;
+}
+
+.rin {
+    margin-left: 20px;
+}
+
+.rin_container {
+    display: flex;
+}
+
+#frame1 {
+    z-index: 1;
+}
+
+#frame2 {
+    position: absolute;
+}
